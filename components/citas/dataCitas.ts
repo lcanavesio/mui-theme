@@ -1,0 +1,135 @@
+import { Cita } from "./Citas";
+
+export const dataCitas: Cita[] = [
+    {
+      id: 1,
+      paciente: 'Juan Pérez',
+      fecha: '2024-08-01',
+      hora: '09:00',
+      duracion: '30 min',
+      tipo: 'Consulta General',
+      estado: 'confirmada',
+      profesional: 'Dra. María López',
+      ubicacion: 'Consultorio 3',
+      contacto: '555-1234',
+      notas: 'Primera visita'
+    },
+    {
+      id: 2,
+      paciente: 'Ana García',
+      fecha: '2024-08-01',
+      hora: '10:00',
+      duracion: '45 min',
+      tipo: 'Seguimiento',
+      estado: 'pendiente',
+      profesional: 'Dr. Carlos Rodríguez',
+      ubicacion: 'Consultorio 2',
+      contacto: '555-5678',
+      notas: 'Traer resultados de laboratorio'
+    },
+    {
+      id: 3,
+      paciente: 'Luis Martínez',
+      fecha: '2024-08-01',
+      hora: '11:00',
+      duracion: '30 min',
+      tipo: 'Consulta General',
+      estado: 'cancelada',
+      profesional: 'Dra. Laura Gómez',
+      ubicacion: 'Consultorio 1',
+      contacto: '555-9876',
+      notas: 'Reprogramar cita'
+    },
+    {
+      id: 4,
+      paciente: 'Sofía Torres',
+      fecha: '2024-08-01',
+      hora: '12:00',
+      duracion: '60 min',
+      tipo: 'Terapia Física',
+      estado: 'confirmada',
+      profesional: 'Dr. Antonio Ruiz',
+      ubicacion: 'Consultorio 5',
+      contacto: '555-4321',
+      notas: 'Primera sesión de terapia'
+    },
+    {
+      id: 5,
+      paciente: 'Carlos Fernández',
+      fecha: '2024-08-01',
+      hora: '13:00',
+      duracion: '30 min',
+      tipo: 'Consulta General',
+      estado: 'pendiente',
+      profesional: 'Dra. Isabel Sánchez',
+      ubicacion: 'Consultorio 4',
+      contacto: '555-8765',
+      notas: 'Revisión de presión arterial'
+    },
+    {
+      id: 6,
+      paciente: 'María Gómez',
+      fecha: '2024-08-01',
+      hora: '14:00',
+      duracion: '45 min',
+      tipo: 'Consulta Pediátrica',
+      estado: 'confirmada',
+      profesional: 'Dr. Javier Pérez',
+      ubicacion: 'Consultorio 2',
+      contacto: '555-6543',
+      notas: 'Revisión de control de niño sano'
+    },
+    {
+      id: 7,
+      paciente: 'Miguel Ramírez',
+      fecha: '2024-08-01',
+      hora: '15:00',
+      duracion: '30 min',
+      tipo: 'Consulta General',
+      estado: 'confirmada',
+      profesional: 'Dra. Claudia Ortiz',
+      ubicacion: 'Consultorio 3',
+      contacto: '555-3210',
+      notas: 'Consulta de seguimiento'
+    },
+    {
+      id: 8,
+      paciente: 'Laura Castillo',
+      fecha: '2024-08-01',
+      hora: '16:00',
+      duracion: '30 min',
+      tipo: 'Consulta Dermatológica',
+      estado: 'pendiente',
+      profesional: 'Dr. Fernando García',
+      ubicacion: 'Consultorio 1',
+      contacto: '555-2109',
+      notas: 'Revisión de dermatitis'
+    },
+    {
+      id: 9,
+      paciente: 'Jorge Méndez',
+      fecha: '2024-08-01',
+      hora: '17:00',
+      duracion: '60 min',
+      tipo: 'Consulta Cardiológica',
+      estado: 'confirmada',
+      profesional: 'Dr. Alfredo López',
+      ubicacion: 'Consultorio 4',
+      contacto: '555-1098',
+      notas: 'Revisión de seguimiento de cardiología'
+    },
+    {
+      id: 10,
+      paciente: 'Elena Rojas',
+      fecha: '2024-08-01',
+      hora: '18:00',
+      duracion: '30 min',
+      tipo: 'Consulta General',
+      estado: 'pendiente',
+      profesional: 'Dra. Patricia Pérez',
+      ubicacion: 'Consultorio 5',
+      contacto: '555-9087',
+      notas: 'Revisión de síntomas de gripe'
+    }
+  ];
+  
